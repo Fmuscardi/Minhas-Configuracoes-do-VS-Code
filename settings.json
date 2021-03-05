@@ -1,8 +1,4 @@
 {
-    // Configuração global
-    // Tamanho da tela
-    "window.zoomLevel": -1,
-    // Tema
     "workbench.colorTheme": "Dracula",
     // Fonte
     "editor.fontSize": 16,
@@ -55,6 +51,7 @@
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".csharp": "cd $dir && dotnet run $fileName",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
@@ -182,4 +179,6 @@
     "gitlens.codeLens.enabled": false,
     // Configuração da extensão LiveShare
     "liveshare.featureSet": "insiders",
+    "window.zoomLevel": -1,
+    "editor.multiCursorModifier": "ctrlCmd",
 }
